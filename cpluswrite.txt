@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main(){
+ char filename[100];
+ FILE *fa, *fb;
+ int ca, cb;
+ fa = fopen("L2E1.spaces.c", "r");
+
+if (fa == NULL){
+ printf("Cannot open file \n");
+ exit(0);
+ }
+
+
+ fb = fopen("C:\cplus\write.txt", "w"); //comments
+ if (fb == NULL){
+ printf("Cannot open file \n");
+ exit(0);
+ }
+ ca = getc(fa);
+ while (ca != EOF){
+ if(ca==' ')
+			{
+ putc(ca,fb);
+ while(ca==' ')
+ ca = getc(fa); 
+			}
+			putc(ca,fb);
+			ca = getc(fa);
+			}
+			fclose(fa);
+			fclose(fb);
+			printf("Objective Achieved.");
+			return 0;
+}

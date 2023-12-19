@@ -1,0 +1,20 @@
+%{
+int vcount = 0;
+int ccount = 0;
+%}
+%%
+[AaeEiIoOuU] {printf("%s vowel\n", yytext);
+       ccount++;}
+[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]     {printf("%s consonant\n", yytext);}
+\n    {return 0;}
+%%
+
+int yywrap(){}
+int main(){
+yylex();
+printf("\nNumber of vowel letters "
+      "in the given input - %d\n", vcount);
+printf("\nNumber of consonant letters "
+      "in the given input - %d\n", ccount);
+return 0;
+}

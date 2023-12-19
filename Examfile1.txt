@@ -1,0 +1,18 @@
+%{
+#include <stdio.h>
+%}
+
+%%
+
+[a-g][0-5a-gA-G]*  {
+    printf("Identifier: %s\n", yytext);
+}
+
+.       ;
+
+%%
+int yywrap(){}
+int main(int argc, char** argv) {
+    yylex();
+    return 0;
+}

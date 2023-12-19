@@ -1,0 +1,160 @@
+Name: isGlobalScope
+Type: int
+Size: 4
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: globalSymbolCount
+Type: int
+Size: 4
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: localSymbolCount
+Type: int
+Size: 4
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: isNumericConstant(const
+Type: int
+Size: 4
+Scope: char*
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: dotCount
+Type: int
+Size: 4
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: (int
+Type: for
+Size: 0
+Scope: i
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: c
+Type: char
+Size: 1
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: isIdentifier(const
+Type: int
+Size: 4
+Scope: char*
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: (int
+Type: for
+Size: 0
+Scope: i
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: tokenIndex
+Type: int
+Size: 4
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: (int
+Type: for
+Size: 0
+Scope: i
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: c
+Type: char
+Size: 1
+Scope: =
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: addGlobalSymbol(const
+Type: void
+Size: 0
+Scope: char*
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: addLocalSymbol(const
+Type: void
+Size: 0
+Scope: char*
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: writeSymbolTableToFile(const
+Type: void
+Size: 0
+Scope: struct
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: (int
+Type: for
+Size: 0
+Scope: i
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: getSizeOfType(const
+Type: int
+Size: 4
+Scope: char*
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: main()
+Type: int
+Size: 4
+Scope: {
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: (strstr(line,
+Type: if
+Size: 0
+Scope: "int
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
+Name: else
+Type: }
+Size: 0
+Scope: if
+Arguments: 
+Number of Arguments: 0
+Return Type: 
+
